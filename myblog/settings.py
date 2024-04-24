@@ -125,7 +125,8 @@ STATIC_URL = 'static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 #email settings
-from email_settings import EMAIL_HOST, EMAIL_HOST_PASSWORD, EMAIL_HOST_USER
+from .email_settings import EMAIL_HOST, EMAIL_HOST_USER, EMAIL_HOST_PASSWORD
+
 
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
